@@ -3,7 +3,7 @@
 # Build artifacts
 *.iml
 .gradle/
-build/
+**/build/
 local.properties
 
 # IDE
@@ -11,9 +11,13 @@ local.properties
 *.swp
 *~
 
-# macOS
+# macOS resource forks (external drives)
 .DS_Store
 ._*
+.AppleDouble
+.LSOverride
+**/.DS_Store
+**/._*
 
 # Keystore (NEVER commit)
 *.jks
