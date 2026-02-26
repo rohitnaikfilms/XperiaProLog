@@ -1,0 +1,23 @@
+# Xperia ProLog
+
+# Build artifacts
+*.iml
+.gradle/
+build/
+local.properties
+
+# IDE
+.idea/
+*.swp
+*~
+
+# macOS
+.DS_Store
+._*
+
+# Keystore (NEVER commit)
+*.jks
+*.keystore
+
+# Release signing
+keystore.properties
